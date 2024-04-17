@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+select {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 74%;
+}
+
+input[type="submit"] {
+    background-color: lightblue;
+    color: black;
+    width: 91.5%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(208, 241, 252);
+    color: rgb(216, 216, 216);
+}
